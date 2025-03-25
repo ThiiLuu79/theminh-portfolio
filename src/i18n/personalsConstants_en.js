@@ -2,7 +2,7 @@
 export const PERSONALS_WELCOME = "Here are my ";
 export const PERSONALS_PROJECT = "Personal Projects";
 export const VISIT = "Visit";
-export const GITHUB_LINK = "GitHub Repository";
+export const GITHUB_LINK = "GitHub Organization";
 
 //COOKING LAB PROJECT
 export const COOKINGLAB_PROJECT = {
@@ -29,7 +29,7 @@ export const COOKINGLAB_PROJECT = {
         "Database: MongoDB",
         "Architectural pattern: Micro-frontends, Redux, MVC Pattern, REST API, Microservices architecture",
         "Methodology: Agile, Scrum, DevOps",
-        "Tool(s): Git/GitHub, GitHub Project Board, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, Netlify, Render, Microsoft Teams, SonarQube"
+        "Tool(s): Git/GitHub, GitHub Project Board, GitHub Actions, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, SonarQube, Netlify, Render, Microsoft Teams"
     ],
     imgAlt: "cookinglab"
 };
