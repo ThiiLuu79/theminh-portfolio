@@ -7,6 +7,7 @@ import pusher from "../../../img/academic/pushers.png";
 import chain from "../../../img/academic/chain.jpg";
 import opac from "../../../img/academic/CSJV.jpg";
 import weathermate from "../../../img/academic/weathermate.png";
+import devops from "../../../img/academic/devops.jpg";
 
 import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
@@ -28,6 +29,17 @@ const Academics = () => {
             />
             
             <div>
+
+                <PageItem
+                    title={academicsConstants.DEVOPS_PROJECT.title}
+                    period={academicsConstants.DEVOPS_PROJECT.period}
+                    description= {academicsConstants.DEVOPS_PROJECT.description}
+                    contributions={academicsConstants.DEVOPS_PROJECT.contributions}
+                    tools={academicsConstants.DEVOPS_PROJECT.tools}
+                    image={devops}
+                    imgAlt={academicsConstants.DEVOPS_PROJECT.imgAlt}
+                    buttons={[]}
+                />
 
                 <PageItem
                     title={academicsConstants.WEATHERMATE_PROJECT.title}

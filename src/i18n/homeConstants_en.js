@@ -41,6 +41,7 @@ export const ETS_COURSES = [
     "Software Analysis and Design",
     "Design and Evaluation of User Interfaces",
     "Web Development Technologies",
+    "Introduction to DevOps approach",
     "Discrete Mathematics",
     "Differential Equations",
     "Probability and Statistics",

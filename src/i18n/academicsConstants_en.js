@@ -2,6 +2,29 @@
 export const ACADEMICS_WELCOME = "Here are my ";
 export const ACADEMICS_PROJECT = "Academic Projects";
 
+//DEVOPS PROJECT
+export const DEVOPS_PROJECT = {
+    title: "DevOps Project",
+    period: "Winter 2025 (ÉTS)",
+    description: "As part of the Introduction to DevOps approach (LOG680) course, we had to put in place the best practices for a DevOps project. The goal of this project was to modify an existing app to make it more efficient and to implement the DevOps approach.",
+    contributions: [
+        "Created a GitLab Kanban board to manage the project and tasks.",
+        "Created an API in Python to retrieve GitLab metrics, such as the average lead time of an issue, the number of issues created, and the number of issues closed.",
+        "Created Dockerfiles to containerize the applications of this project.",
+        "Deploy the applications on a Kubernetes cluster by creating deployment, service, ingress, secret and configmap ressources.",
+        "Created a GitLab CI/CD pipeline to automate the deployment of the applications.",
+        "Created a monitoring system using Prometheus and Grafana to monitor the applications metrics."
+    ],
+    tools: [
+        "Language(s): Python", 
+        "Framework(s): Flask, FastAPI",
+        "Database: PostgreSQL",
+        "Methodology: Agile, Scrum, DevOps",
+        "Tool(s): GitLab, GitLab CI/CD, GitLab Kanban Board, Docker, Kubernetes, Prometheus, Grafana, Swagger, Postman, VSCode, pgAdmin"
+    ],
+    imgAlt: "devops"
+};
+
 //WEATERMATE PROJECT
 export const WEATHERMATE_PROJECT = {
     title: "Weather Mate Application",
