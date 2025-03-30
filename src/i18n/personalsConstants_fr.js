@@ -22,7 +22,7 @@ export const COOKINGLAB_PROJECT = {
         "Créé des tests de bout en bout avec Cypress.",
         "Construit un API back end en Java pour exposer les recettes personnelles à l'utilisateur.",
         "Implémenté un pipeline CI pour s'assurer que les tests sont exécutés automatiquement à chaque push sur la branche principale.",
-        "Implémenté un bot de révision CookingLab personnalisé en Python qui vérifie les erreurs de Lint et donne un message amusant si le code est propre ou nécessite des améliorations.",
+        "Implémenté un bot de révision de pull request CookingLab personnalisé en Python qui vérifie les erreurs de Lint et donne un commentaire amusant si le code est propre ou nécessite des améliorations.",
     ],
     tools: [
         "Language(s): TypeScript, CSS, Java, Python",
