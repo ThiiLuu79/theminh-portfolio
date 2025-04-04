@@ -16,11 +16,11 @@ const CSProjects = () => {
     const homeConstants = language === 'en' ? homeConstantsEn : homeConstantsFr;
 
     return (
-        <section className = "my-projects" id = "cs_projects" data-aos="fade-right">
-            <h2 className = "section__title section__title--projects">{homeConstants.CS_PROJECTS_TITLE}</h2>
-            <p className = "section__subtitle section__subtitle--projects">{homeConstants.CS_PROJECTS_SUBTITLE}</p>
+        <section className = "my-projects" id = "cs_projects">
+            <h2 className = "section__title section__title--projects" data-aos="fade-right">{homeConstants.CS_PROJECTS_TITLE}</h2>
+            <p className = "section__subtitle section__subtitle--projects" data-aos="fade-right">{homeConstants.CS_PROJECTS_SUBTITLE}</p>
 
-            <div className = "portfolio">
+            <div className = "portfolio" data-aos="fade-up">
                 <ProjectLink
                     redirect="/Academics"
                     image={academics}
