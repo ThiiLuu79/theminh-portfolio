@@ -23,6 +23,7 @@ export const COOKINGLAB_PROJECT = {
         "Built a back end API in Java to expose personal recipes to the user.",
         "Implemented a CI pipeline to make sure the tests are run automatically on every push to the main branch.",
         "Implemented a custom CookingLab pull request review bot in Python that checks for Lint errors and gives a fun comment if the code is clean or needs improvement.",
+        "Added a Discord bot to quickly notify the team when a new pull request is created and merged.",
     ],
     tools: [
         "Language(s): TypeScript, CSS, Java, Python",
@@ -30,7 +31,7 @@ export const COOKINGLAB_PROJECT = {
         "Database: MongoDB",
         "Architectural pattern: Micro-frontends, Redux, MVC Pattern, REST API, Microservices architecture",
         "Methodology: Agile, Scrum, DevOps",
-        "Tool(s): Git/GitHub, GitHub Project Board, GitHub Actions, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, SonarQube, Netlify, Render, Discord, Microsoft Teams"
+        "Tool(s): Git/GitHub, GitHub Project Board, GitHub Actions, GitHub Organization, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, SonarQube, Netlify, Render, Discord, Microsoft Teams"
     ],
     imgAlt: "cookinglab"
 };
@@ -42,6 +43,7 @@ export const LESSERAFIM_PROJECT = {
     description: "A fanpage dedicated to LE SSERAFIM, my favorite K-pop group, where I showcase my appreciation for their music and journey. The page features an overview of their career, highlighting key milestones and achievements over the years. It includes a list of their music videos. Additionally, the page offers detailed profiles of each member, celebrating their unique talents and contributions to the group. This project allowed me to integrate web design and content organization while reflecting my passion for the group.",
     contributions: [
         "Created a fanpage dedicated to LE SSERAFIM using React and Bootstrap",
+        "Implemented a micro-frontend architecture to enable independent development and deployment of features.",
     ],
     tools: [
         "Language(s): TypeScript, CSS", 

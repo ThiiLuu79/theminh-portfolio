@@ -23,6 +23,7 @@ export const COOKINGLAB_PROJECT = {
         "Construit un API back end en Java pour exposer les recettes personnelles à l'utilisateur.",
         "Implémenté un pipeline CI pour s'assurer que les tests sont exécutés automatiquement à chaque push sur la branche principale.",
         "Implémenté un bot de révision de pull request CookingLab personnalisé en Python qui vérifie les erreurs de Lint et donne un commentaire amusant si le code est propre ou nécessite des améliorations.",
+        "Ajouté un bot Discord pour rapidement notifier l'équipe lorsqu'une nouvelle pull request est créée et fusionnée.",
     ],
     tools: [
         "Language(s): TypeScript, CSS, Java, Python",
@@ -30,7 +31,7 @@ export const COOKINGLAB_PROJECT = {
         "Base de données: MongoDB",
         "Architecture: Micro-frontends, Redux, Patron MVC, REST API, Architecture de microservices",
         "Methodologie: Agile, Scrum, DevOps",
-        "Outil(s): Git/GitHub, GitHub Project Board, GitHub Actions, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, SonarQube, Netlify, Render, Discord, Microsoft Teams"
+        "Outil(s): Git/GitHub, GitHub Project Board, GitHub Actions, Organisation GitHub, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, SonarQube, Netlify, Render, Discord, Microsoft Teams"
     ],
     imgAlt: "cookinglab"
 };
@@ -41,7 +42,8 @@ export const LESSERAFIM_PROJECT = {
     period: "2025",
     description: "Une fanpage dédiée à LE SSERAFIM, mon groupe de K-pop préféré, où je montre mon appréciation pour leur musique et leur parcours. La page présente un aperçu de leur carrière, mettant en lumière les étapes clés et les réalisations au fil des ans. Elle comprend une liste complète de leurs clips musicaux. De plus, la page propose des profils détaillés de chaque membre, célébrant leurs talents uniques et leurs contributions au groupe. Ce projet m'a permis d'intégrer le design web et l'organisation du contenu tout en exprimant ma passion pour le groupe.",
     contributions: [
-        "Créé une fanpage dédiée à LE SSERAFIM en utilisant React et Bootstrap"
+        "Créé une fanpage dédiée à LE SSERAFIM en utilisant React et Bootstrap",
+        "Implémenté une architecture de micro-frontends pour permettre le développement et le déploiement indépendants des fonctionnalités.",
     ],
     tools: [
         "Language(s): TypeScript, CSS", 
