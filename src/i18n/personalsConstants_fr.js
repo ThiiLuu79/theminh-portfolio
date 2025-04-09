@@ -36,6 +36,25 @@ export const COOKINGLAB_PROJECT = {
     imgAlt: "cookinglab"
 };
 
+// TODODUE PROJECT
+export const TODODUE_PROJECT = {
+    title: "Application ToDoDue",
+    period: "2025",
+    description: "ToDoDue est une application de gestion de tâches conçue pour aider les étudiants à gérer efficacement leurs tâches et projets. L'application permet aux utilisateurs de créer, modifier et supprimer des tâches, ainsi que de définir des dates d'échéance. Avec une interface conviviale et une navigation intuitive, TodoDue vise à améliorer la productivité et l'organisation pour tous les types d'étudiants. L'objectif principal de ToDoDue est d'aider les étudiants à respecter leurs délais et à gérer efficacement leur charge de travail.",
+    contributions: [
+        "Développé le front end en utilisant Angular, Typescript, Bootstrap et SASS.",
+        "Implémenté une architecture de micro-frontends pour permettre le développement et le déploiement indépendants des fonctionnalités.",
+        "Utilisé le stockage local pour conserver les données utilisateur.",
+    ],
+    tools: [
+        "Language(s): TypeScript, CSS, SASS, HTML",
+        "Framework(s): Angular, Bootstrap",
+        "Architecture: Micro-frontends",
+        "Outil(s): Git/GitHub, VSCode, Netlify, Local Storage"
+    ],
+    imgAlt: "tododue"
+};
+
 //LE SSERAFIM PROJECT
 export const LESSERAFIM_PROJECT = {
     title: "LE SSERAFIM Fanpage",

@@ -2,6 +2,7 @@ import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/personal/html.jpg";
 import tititea from "../../../img/personal/tititea.jpg";
 import cookinglab from "../../../img/personal/cookingLab.png";
+import tododue from "../../../img/personal/tododue.png";
 import lesserafim from "../../../img/personal/lesserafim.png";
 
 import Button from "../../ReusableComponents/Button/Button";
@@ -38,6 +39,18 @@ const Personals = () => {
                     imgAlt={personnalsConstants.COOKINGLAB_PROJECT.imgAlt}
                     buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://cooking-lab.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,
                         <Button key="button2" text={personnalsConstants.GITHUB_LINK} redirect='https://github.com/CookingLab' blank={true} noreferrer={true} buttonType='Link'/>
+                    ]}
+                />
+
+                <PageItem
+                    title= {personnalsConstants.TODODUE_PROJECT.title}
+                    period= {personnalsConstants.TODODUE_PROJECT.period}
+                    description= {personnalsConstants.TODODUE_PROJECT.description}
+                    contributions= {personnalsConstants.TODODUE_PROJECT.contributions}
+                    tools= {personnalsConstants.TODODUE_PROJECT.tools}
+                    image={tododue}
+                    imgAlt={personnalsConstants.TODODUE_PROJECT.imgAlt}
+                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://tododue.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>
                     ]}
                 />
 
