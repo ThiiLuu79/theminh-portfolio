@@ -40,7 +40,7 @@ export const COOKINGLAB_PROJECT = {
 export const TODODUE_PROJECT = {
     title: "ToDoDue Application",
     period: "2025",
-    description: "ToDoDue is a task management application designed to help students efficiently manage their tasks and projects. The app allows users to create, edit, and delete tasks and set due dates. With a user-friendly interface and intuitive navigation, TodoDue aims to enhance productivity and organization for all type of students. ToDoDue's main goal is to help students stay ahead of their deadlines and manage their workload effectively.",
+    description: "ToDoDue is a Kanban-style task management web app designed to help students efficiently track their homework with a strong focus on deadlines. Students can create tasks with fields such as name, description, course, due date, status, effort estimate, and notes. Tasks are displayed in columns based on their status—TODO, In Progress, or Done—and can be edited, deleted, or moved via drag-and-drop. A color-coded system visually indicates task urgency, ranging from green (more than a week left) to very red (overdue), with a legend to guide users. The app also highlights the top three most urgent tasks above the dashboard to help prioritize work.",
     contributions: [
         "Developed the front end using Angular, Typescript, Bootstrap and SASS.",
         "Implemented a micro-frontend architecture to enable independent development and deployment of features.",
