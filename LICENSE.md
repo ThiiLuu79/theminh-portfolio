@@ -1,15 +1,26 @@
-# License
+# The Minh's personal Portfolio Proprietary License
 
-## All Rights Reserved
+Copyright © 2021 The Minh Luong. All Rights Reserved.
 
-Copyright (c) 2021 The Minh Luong
+This software ("theminh-portfolio") is the exclusive property of The Minh Luong ("the Owner"). By accessing, using, or distributing this software, you agree to the following terms:
 
----
+### 1. Ownership & Rights
+- The Owners retain full ownership, copyright, and intellectual property rights over theminh-portfolio.
+- No rights are granted unless explicitly stated in this agreement.
 
-## Disclaimer
+### 2. Restrictions
+You are **not permitted** to:
+- Copy, modify, distribute, sublicense, sell, or rent this software.
+- Reverse-engineer, decompile, or attempt to extract source code.
+- Use this software for commercial, educational, or personal purposes without explicit written consent from the Owners.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,  
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,  
-AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,  
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### 3. Permitted Use
+- Only The Minh Luong have full rights to use and modify the software.
+- Third-party use requires a separate agreement with the Owners.
+
+### 4. No Warranty & Liability
+- The software is provided **"AS IS"** without warranties or guarantees.
+- The Owners are **not liable** for any damage, loss, or issues arising from the use of this software.
+
+### 5. Contact & Permissions
+For permissions, licensing inquiries, or legal matters, contact theminh-portfolio's owner.
