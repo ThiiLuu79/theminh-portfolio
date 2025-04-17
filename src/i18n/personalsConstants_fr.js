@@ -49,7 +49,7 @@ export const TODODUE_PROJECT = {
     tools: [
         "Language(s): TypeScript, CSS, SASS, HTML",
         "Framework(s): Angular, Bootstrap",
-        "Architecture: Micro-frontends",
+        "Architecture: Micro-frontends, Patron MVC",
         "Outil(s): Git/GitHub, VSCode, Netlify, Local Storage"
     ],
     imgAlt: "tododue"
