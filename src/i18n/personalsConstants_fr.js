@@ -50,7 +50,7 @@ export const TODODUE_PROJECT = {
         "Language(s): TypeScript, CSS, SASS, HTML",
         "Framework(s): Angular, Bootstrap",
         "Architecture: Micro-frontends, Patron MVC",
-        "Outil(s): Git/GitHub, VSCode, Netlify, Local Storage"
+        "Outil(s): NgRx, Git/GitHub, VSCode, Netlify, Local Storage"
     ],
     imgAlt: "tododue"
 };
