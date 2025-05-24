@@ -1,5 +1,5 @@
 import academics from "../../../img/home/academic.jpg";
-import personals from "../../../img/home/personal.jpg";
+import cookingLabCover from "../../../img/home/cookingLabCover.png";
 
 import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
 
@@ -23,7 +23,7 @@ const CSProjects = () => {
             <div className = "portfolio" data-aos="fade-up">
                 <ProjectLink
                     redirect="/Personals"
-                    image={personals}
+                    image={cookingLabCover}
                     alt="personal_project cover"
                     text={homeConstants.PERSONAL_PROJECTS}
                 />
