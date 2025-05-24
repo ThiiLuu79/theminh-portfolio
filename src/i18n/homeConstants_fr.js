@@ -39,11 +39,9 @@ export const ETS_COURSES = [
     "Bases de Données à Haute Performance",
     "Structures de Données et Algorithmes",
     "Analyse et Conception de Logiciels",
+    "Architecture logicielle",
     "Conception et Évaluation des Interfaces Utilisateur",
     "Technologies de développement Internet",
     "Introduction à l'approche DevOps",
-    "Mathématiques Discrètes",
-    "Équations Différentielles",
-    "Probabilités et Statistiques",
-    "Algèbre Linéaire"
+    "Sécurité des logiciels",
 ];

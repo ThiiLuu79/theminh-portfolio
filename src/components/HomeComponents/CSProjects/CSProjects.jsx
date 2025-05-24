@@ -22,16 +22,16 @@ const CSProjects = () => {
 
             <div className = "portfolio" data-aos="fade-up">
                 <ProjectLink
-                    redirect="/Academics"
-                    image={academics}
-                    alt="academic_project_cover"
-                    text={homeConstants.ACADEMIC_PROJECTS}
-                />
-                <ProjectLink
                     redirect="/Personals"
                     image={personals}
                     alt="personal_project cover"
                     text={homeConstants.PERSONAL_PROJECTS}
+                />
+                <ProjectLink
+                    redirect="/Academics"
+                    image={academics}
+                    alt="academic_project_cover"
+                    text={homeConstants.ACADEMIC_PROJECTS}
                 />
             </div>
 

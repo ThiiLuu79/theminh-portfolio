@@ -8,6 +8,7 @@ export const DEVOPS_PROJECT = {
     period: "Winter 2025 (ÉTS)",
     description: "As part of the Introduction to DevOps approach (LOG680) course, we had to put in place the best practices for a DevOps project. The goal of this project was to modify an existing app to make it more efficient and to implement the DevOps approach.",
     contributions: [
+        "Collaborated in a team of 4 students.",
         "Created a GitLab Kanban board to manage the project and tasks.",
         "Created an API in Python to retrieve GitLab metrics, such as the average lead time of an issue, the number of issues created, and the number of issues closed.",
         "Created Dockerfiles to containerize the applications of this project.",

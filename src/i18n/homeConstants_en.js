@@ -39,11 +39,9 @@ export const ETS_COURSES = [
     "High Performance Databases",
     "Data Structures and Algorithms",
     "Software Analysis and Design",
+    "Software Architecture",
     "Design and Evaluation of User Interfaces",
     "Web Development Technologies",
     "Introduction to DevOps approach",
-    "Discrete Mathematics",
-    "Differential Equations",
-    "Probability and Statistics",
-    "Linear Algebra"
+    "Software Security",
 ];

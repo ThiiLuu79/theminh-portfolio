@@ -8,6 +8,7 @@ export const DEVOPS_PROJECT = {
     period: "Hivers 2025 (ÉTS)",
     description: "Dans le cadre du cours d'Introduction à l'approche DevOps (LOG680), nous devions mettre en place les meilleures pratiques pour un projet DevOps. L'objectif de ce projet était de modifier une application existante pour la rendre plus efficace et de mettre en œuvre l'approche DevOps.",
     contributions: [
+        "Collaboré dans une équipe de 4 étudiants.",
         "Création d'un tableau Kanban GitLab pour gérer le projet et les tâches.",
         "Création d'une API en Python pour récupérer les métriques GitLab, telles que le temps moyen de traitement d'un problème, le nombre de problèmes créés et le nombre de problèmes fermés.",
         "Création de Dockerfiles pour containeriser les applications de ce projet.",
