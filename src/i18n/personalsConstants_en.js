@@ -3,6 +3,8 @@ export const PERSONALS_WELCOME = "Here are my ";
 export const PERSONALS_PROJECT = "Personal Projects";
 export const VISIT = "Visit";
 export const GITHUB_LINK = "GitHub Organization";
+export const GITHUB_REPO = "GitHub Repository";
+export const LESSERAFIM_BE = "GitHub Repository (Backend)";
 
 //COOKING LAB PROJECT
 export const COOKINGLAB_PROJECT = {

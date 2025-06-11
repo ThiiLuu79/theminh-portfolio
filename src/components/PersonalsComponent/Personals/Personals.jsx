@@ -50,7 +50,8 @@ const Personals = () => {
                     tools= {personnalsConstants.TODODUE_PROJECT.tools}
                     image={tododue}
                     imgAlt={personnalsConstants.TODODUE_PROJECT.imgAlt}
-                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://tododue.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>
+                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://tododue.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,
+                        <Button key="button2" text={personnalsConstants.GITHUB_REPO} redirect='https://github.com/ThiiLuu79/tododue' blank={true} noreferrer={true} buttonType='Link'/>
                     ]}
                 />
 
@@ -62,7 +63,9 @@ const Personals = () => {
                     tools= {personnalsConstants.LESSERAFIM_PROJECT.tools}
                     image={lesserafim}
                     imgAlt={personnalsConstants.LESSERAFIM_PROJECT.imgAlt}
-                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://lesserafim-page.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,]}
+                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://lesserafim-page.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,
+                        <Button key="button2" text={personnalsConstants.LESSERAFIM_BE} redirect='https://github.com/ThiiLuu79/lesserafim-page-api' blank={true} noreferrer={true} buttonType='Link'/>
+                    ]}
                 />
                 
                 <PageItem
