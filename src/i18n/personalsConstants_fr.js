@@ -63,12 +63,13 @@ export const LESSERAFIM_PROJECT = {
     contributions: [
         "Créé une fanpage dédiée à LE SSERAFIM en utilisant React et Bootstrap",
         "Implémenté une architecture de micro-frontends pour permettre le développement et le déploiement indépendants des fonctionnalités.",
+        "Créé un API pour contenir les données du groupe, permettant des mises à jour et une évolutivité faciles. (EN COURS)",
     ],
     tools: [
-        "Language(s): TypeScript, CSS", 
-        "Framework(s): React, Bootstrap",
-        "Architecture: Micro-frontends",
-        "Outil(s): Git/GitHub, VSCode, Netlify"
+        "Language(s): TypeScript, CSS, Java", 
+        "Framework(s): React, Bootstrap, Spring, JUnit",
+        "Architecture: Micro-frontends, Patron MVC, REST API, Architecture de microservices",
+        "Outil(s): Git/GitHub, VSCode, IntelliJ, Netlify, Render, Swagger, Postman"
     ],
     imgAlt: "lesserafim"
 };
