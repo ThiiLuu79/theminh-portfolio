@@ -64,7 +64,8 @@ const Personals = () => {
                     image={lesserafim}
                     imgAlt={personnalsConstants.LESSERAFIM_PROJECT.imgAlt}
                     buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://lesserafim-page.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,
-                        <Button key="button2" text={personnalsConstants.LESSERAFIM_BE} redirect='https://github.com/ThiiLuu79/lesserafim-page-api' blank={true} noreferrer={true} buttonType='Link'/>
+                        <Button key="button2" text={personnalsConstants.GH_BE} redirect='https://github.com/ThiiLuu79/lesserafim-page-api' blank={true} noreferrer={true} buttonType='Link'/>,
+                        <Button key="button3" text={personnalsConstants.GH_FE} redirect='https://github.com/ThiiLuu79/lesserafim-page' blank={true} noreferrer={true} buttonType='Link'/>
                     ]}
                 />
                 

@@ -4,7 +4,8 @@ export const PERSONALS_PROJECT = "Personal Projects";
 export const VISIT = "Visit";
 export const GITHUB_LINK = "GitHub Organization";
 export const GITHUB_REPO = "GitHub Repository";
-export const LESSERAFIM_BE = "GitHub Repository (Backend)";
+export const GH_BE = "GitHub Repository (Backend)";
+export const GH_FE = "GitHub Repository (Frontend)";
 
 //COOKING LAB PROJECT
 export const COOKINGLAB_PROJECT = {
