@@ -71,6 +71,7 @@ export const LESSERAFIM_PROJECT = {
     tools: [
         "Language(s): TypeScript, CSS, Java", 
         "Framework(s): React, Bootstrap, Spring, JUnit",
+        "Database: MongoDB",
         "Architectural pattern: Micro-frontends, MVC Pattern, REST API, Microservices architecture",
         "Tool(s): Git/GitHub, GitHub Actions, VSCode, IntelliJ, Netlify, Render, Swagger, Postman"
     ],
