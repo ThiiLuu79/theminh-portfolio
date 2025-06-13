@@ -66,7 +66,9 @@ export const LESSERAFIM_PROJECT = {
     contributions: [
         "Created a fanpage dedicated to LE SSERAFIM using React and Bootstrap",
         "Implemented a micro-frontend architecture to enable independent development and deployment of features.",
-        "Created an API to contain the data of the group, allowing for easy updates and scalability. (IN PROGRESS)",
+        "Created an API to contain the data of the group, allowing easy updates and scalability.",
+        "Stored the data in a MongoDB database to ensure persistence and easy access.",
+        "Created unit tests to ensure the reliability of the application.",
     ],
     tools: [
         "Language(s): TypeScript, CSS, Java", 
