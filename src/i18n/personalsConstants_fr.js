@@ -64,9 +64,9 @@ export const LESSERAFIM_PROJECT = {
     period: "2025",
     description: "Une fanpage dédiée à LE SSERAFIM, mon groupe de K-pop préféré, où je montre mon appréciation pour leur musique et leur parcours. La page présente un aperçu de leur carrière, mettant en lumière les étapes clés et les réalisations au fil des ans. Elle comprend une liste complète de leurs clips musicaux. De plus, la page propose des profils détaillés de chaque membre, célébrant leurs talents uniques et leurs contributions au groupe. Ce projet m'a permis d'intégrer le design web et l'organisation du contenu tout en exprimant ma passion pour le groupe.",
     contributions: [
-        "Créé une fanpage dédiée à LE SSERAFIM en utilisant React et Bootstrap",
+        "Créé une application full stack dédiée à LE SSERAFIM en utilisant React, Bootstrap et Spring.",
         "Implémenté une architecture de micro-frontends pour permettre le développement et le déploiement indépendants des fonctionnalités.",
-        "Créé un API pour contenir les données du groupe, permettant des mises à jour et une évolutivité faciles.",
+        "Créé une API pour exposer les données au front end.",
         "Stockage des données dans une base de données MongoDB pour assurer la persistance et un accès facile.",
         "Créé des tests unitaires pour garantir la fiabilité de l'application."
     ],
@@ -75,7 +75,7 @@ export const LESSERAFIM_PROJECT = {
         "Framework(s): React, Bootstrap, Spring, JUnit",
         "Base de données: MongoDB",
         "Architecture: Micro-frontends, Patron MVC, REST API, Architecture de microservices",
-        "Outil(s): Git/GitHub, GitHub Actions, VSCode, IntelliJ, Netlify, Render, Swagger, Postman"
+        "Outil(s): Git/GitHub, GitHub Actions, VSCode, IntelliJ, Netlify, Render, Swagger, Postman, Maven, MongoDB Atlas, MongoDB Compass"
     ],
     imgAlt: "lesserafim"
 };
