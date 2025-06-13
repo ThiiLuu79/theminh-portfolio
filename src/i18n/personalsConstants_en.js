@@ -92,6 +92,7 @@ export const TITITEA_PROJECT = {
     ],
     tools: [
         "Language(s): HTML, CSS, JavaScript, PHP, MySQL, XAMPP Stack",
+        "Database: MySQL",
         "Tool(s): Git/GitHub, VSCode"
     ],
     imgAlt: "tititea"
