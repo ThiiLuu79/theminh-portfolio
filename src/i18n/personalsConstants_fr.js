@@ -75,7 +75,7 @@ export const LESSERAFIM_PROJECT = {
         "Framework(s): React, Bootstrap, Spring, JUnit",
         "Base de données: MongoDB",
         "Architecture: Micro-frontends, Patron MVC, REST API, Architecture de microservices",
-        "Outil(s): Git/GitHub, GitHub Actions, VSCode, IntelliJ, Netlify, Render, Swagger, Postman, Maven, MongoDB Atlas, MongoDB Compass"
+        "Outil(s): Git/GitHub, GitHub Actions, VSCode, IntelliJ, Netlify, Render, Swagger, Postman, Maven, MongoDB Atlas, MongoDB Compass, Axios"
     ],
     imgAlt: "lesserafim"
 };
