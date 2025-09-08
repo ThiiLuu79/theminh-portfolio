@@ -8,6 +8,7 @@ import chain from "../../../img/academic/chain.jpg";
 import opac from "../../../img/academic/CSJV.jpg";
 import weathermate from "../../../img/academic/weathermate.png";
 import devops from "../../../img/academic/devops.jpg";
+import stil from "../../../img/academic/stil.png";
 
 import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
@@ -29,6 +30,17 @@ const Academics = () => {
             />
             
             <div>
+
+                <PageItem
+                    title={academicsConstants.STIL_PROJECT.title}
+                    period={academicsConstants.STIL_PROJECT.period}
+                    description= {academicsConstants.STIL_PROJECT.description}
+                    contributions={academicsConstants.STIL_PROJECT.contributions}
+                    tools={academicsConstants.STIL_PROJECT.tools}
+                    image={stil}
+                    imgAlt={academicsConstants.STIL_PROJECT.imgAlt}
+                    buttons={[<Button key="button1" text={ academicsConstants.GITHUB_REPO } redirect='https://github.com/stilab-ets/stilab-ets.github.io' blank={true} noreferrer={true} buttonType='Link'/>]}
+                />
 
                 <PageItem
                     title={academicsConstants.DEVOPS_PROJECT.title}

@@ -1,6 +1,37 @@
 //Constant for Academics.jsx
 export const ACADEMICS_WELCOME = "Here are my ";
 export const ACADEMICS_PROJECT = "Academic Projects";
+export const GITHUB_REPO = "GitHub repository";
+
+// STIL PROJECT (CAPSTONE)
+export const STIL_PROJECT = {
+    title: "Capstone Project - STIL Research Lab Website",
+    period: "Summer 2025 (ÉTS)",
+    description: "As part of my capstone project at ÉTS, I designed and developed a modern, interactive, and structured website for the Software Technology and Intelligence Research Lab (STIL). The platform centralizes research projects, members, publications, events, awards, and teaching activities into one accessible hub. Developed as an open-source solution under the MIT license, it is secure, maintainable, and performant. Following an Agile methodology with CI/CD pipelines, the project applied best practices in software architecture, DevOps, and collaboration to meet both current and future needs of the lab.",
+    contributions: [
+        "Collaborated within a team of 5 students.",
+        "Drafted the Software Requirements Specification (SRS) and designed the relational database schema.",
+        "Defined functional and non-functional requirements through needs analysis.",
+        "Designed the system architecture using micro-frontends and REST APIs.",
+        "Developed the frontend in Vue.js 3 and TypeScript with Tailwind CSS for a responsive UI.",
+        "Implemented the backend with Django REST Framework and Python for robust data management.",
+        "Integrated a PostgreSQL database to store research projects, members, publications, events, awards, and courses.",
+        "Automated publication imports via the OpenAlex API, with fallback to Google Scholar.",
+        "Implemented authentication and role-based access control with JWT and Django permissions.",
+        "Configured CI/CD pipelines with GitHub Actions for automated builds, tests, and deployments.",
+        "Achieved unit test coverage of ~70% for both frontend and backend.",
+        "Documented the system with programmer and user guides, published in open source under the MIT license."
+    ],
+    tools: [
+        "Languages: TypeScript, Python, HTML, CSS, UML",
+        "Frameworks: Vue.js, Django REST Framework, Node.js, Express, Tailwind CSS, Vitest, Pytest",
+        "Architecture: Micro-frontends, REST API, containerized with Docker",
+        "Database: PostgreSQL",
+        "Methodologies: Agile (Scrum), DevOps, CI/CD",
+        "Tools: GitHub, GitHub Actions, GitHub Projects (Kanban), Docker, Swagger, Postman, VSCode, pgAdmin, ESLint, Black, JWT Authentication"
+    ],
+    imgAlt: "stil-research-lab-website"
+};
 
 //DEVOPS PROJECT
 export const DEVOPS_PROJECT = {

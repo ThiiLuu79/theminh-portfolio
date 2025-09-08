@@ -1,6 +1,37 @@
 // Constante pour Academics.jsx
 export const ACADEMICS_WELCOME = "Voici mes ";
 export const ACADEMICS_PROJECT = "Projets Académiques";
+export const GITHUB_REPO = "Répertoire GitHub";
+
+// STIL PROJECT (CAPSTONE)
+export const STIL_PROJECT = {
+    title: "Projet de fin d'études - Site web du laboratoire STIL",
+    period: "Été 2025 (ÉTS)",
+    description: "Dans le cadre de mon projet de fin d’études à l'ÉTS, j’ai conçu et développé un site web moderne, interactif et structuré pour le Laboratoire de Recherche en Technologies Logicielles et Intelligence (STIL). La plateforme centralise les projets de recherche, les membres, les publications, les événements, les prix et les activités d’enseignement sur un seul portail accessible. Développé en open source sous licence MIT, le site est sécurisé, maintenable et performant. Réalisé avec une méthodologie Agile et un pipeline CI/CD, le projet applique les meilleures pratiques d’architecture logicielle, de DevOps et de collaboration afin de répondre aux besoins actuels et futurs du laboratoire.",
+    contributions: [
+        "Collaboration au sein d’une équipe de 5 étudiants.",
+        "Rédaction du document SRS et conception du schéma relationnel de la base de données.",
+        "Analyse des besoins pour définir les exigences fonctionnelles et non fonctionnelles.",
+        "Conception de l’architecture logicielle basée sur les micro-frontends et API REST.",
+        "Développement du frontend avec Vue.js 3 et TypeScript, et Tailwind CSS pour une interface réactive.",
+        "Implémentation du backend avec Django REST Framework et Python pour une gestion robuste des données.",
+        "Intégration d’une base de données PostgreSQL pour stocker les projets, membres, publications, événements, prix et cours.",
+        "Automatisation de l’importation des publications via l’API OpenAlex (avec fallback Google Scholar).",
+        "Mise en place de l’authentification et d’un contrôle d’accès basé sur les rôles (JWT et permissions Django).",
+        "Configuration de pipelines CI/CD avec GitHub Actions pour automatiser builds, tests et déploiements.",
+        "Couverture de tests unitaires d’environ 70% pour le frontend et le backend.",
+        "Documentation complète (guide programmeur, guide utilisateur) et publication en open source sous licence MIT."
+    ],
+    tools: [
+        "Langages : TypeScript, Python, HTML, CSS, UML",
+        "Frameworks : Vue.js, Django REST Framework, Node.js, Express, Tailwind CSS, Vitest, Pytest",
+        "Architecture : Micro-frontends, API REST, conteneurisation avec Docker",
+        "Base de données : PostgreSQL",
+        "Méthodologies : Agile (Scrum), DevOps, CI/CD",
+        "Outils : GitHub, GitHub Actions, GitHub Projects (Kanban), Docker, Swagger, Postman, VSCode, pgAdmin, ESLint, Black, Authentification JWT"
+    ],
+    imgAlt: "site-web-laboratoire-stil"
+};
 
 //DEVOPS PROJECT
 export const DEVOPS_PROJECT = {
