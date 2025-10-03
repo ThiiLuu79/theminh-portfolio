@@ -3,6 +3,18 @@ export const WORK_INTRODUCTION = "Explorez mes";
 export const WORK_PAGE_TITLE = "Expériences de travail";
 export const WORK_SUBTITLE = "Expériences de travail";
 
+//INTACT FULL TIME
+export const INTACT_FULL_TIME_EXPERIENCE = {
+    title: "Développeur Logiciel I",
+    company: "Intact Corporation Financière",
+    location: "Montréal, Canada",
+    description: "Travaillé comme Développeur Logiciel dans le département d'Acquisition chez Intact Corporation Financière.",
+    contributions: ["Rejoint l'équipe Vega.", "Développé et lancé de nouvelles fonctionnalités impactantes pour améliorer l'expérience utilisateur.", "Contribué au développement de microfrontends.", "Corrigé des bugs", `Travaillé en tant que "Goalkeeper", un rôle qui implique de travailler sur des tâches non planifiées et d'aider avec les problèmes de production et de sécurité.`],
+    tools: ["Environnement : MacOS, Windows", "Langages : Angular, TypeScript, HTML, CSS/SASS, Java", "Méthodologie : Agile, Scrum, SAFe, BDD", "Autres : NgRx, RxJS, NodeJS, Jest, Git/Github, Github Desktop, IntelliJ, VSCode, SonarQube, Redux DevTools, Jira, Confluence, Teams, CI/CD pipelines, JUnit"],
+    imgAlt: "intactLogo",
+    companyLink: "https://www.intactfc.com/"
+}
+
 // INTACT
 export const INTACT_EXPERIENCE = {
     title: "Développeur Logiciel (Stage)",

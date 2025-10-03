@@ -4,6 +4,7 @@ import intactImg from "../../../img/experiences/intact.png";
 import nbcImg from "../../../img/experiences/nbc_interns.jpg";
 import inlibro from "../../../img/experiences/inlibro.png";
 import ciuss from "../../../img/experiences/ciuss.jpg";
+import intactLogo from "../../../img/experiences/intactLogo.png";
 
 import GetExpTimeString from "../../../utils/time";
 
@@ -19,6 +20,8 @@ const Work = () => {
     const { language } = useLanguage();
     const workConstants = language === 'en' ? workConstantsEn : workConstantsFr;
 
+    var intactFullTimeStart = new Date(2025, 8, 2);
+    var intactFullTimeEnd = new Date();
     var intactStart = new Date(2024, 4, 6);
     var intactEnd = new Date(2024, 7, 23);
     var nbcStart = new Date(2023, 4, 14);
@@ -28,6 +31,7 @@ const Work = () => {
     var ciussStart = new Date(2019, 7);
     var ciussEnd = new Date(2019, 8);
 
+    var intactFullTimeExpTimeString = GetExpTimeString(intactFullTimeEnd, intactFullTimeStart);
     var intactExpTimeString = GetExpTimeString(intactEnd, intactStart); 
     var nbcExpTimeString = GetExpTimeString(nbcEnd, nbcStart);
     var inlibroExpTimeString = GetExpTimeString(inlibroEnd, inlibroStart);
@@ -43,6 +47,19 @@ const Work = () => {
                 image = {cover}
             />
             <div>
+                <PageItem
+                    title={workConstants.INTACT_FULL_TIME_EXPERIENCE.title}
+                    period={intactFullTimeExpTimeString}
+                    description= {workConstants.INTACT_FULL_TIME_EXPERIENCE.description}
+                    contributions={workConstants.INTACT_FULL_TIME_EXPERIENCE.contributions}
+                    tools={workConstants.INTACT_FULL_TIME_EXPERIENCE.tools}
+                    image={intactLogo}
+                    imgAlt={workConstants.INTACT_FULL_TIME_EXPERIENCE.imgAlt}
+                    itemType={"work"}
+                    companyLink={workConstants.INTACT_FULL_TIME_EXPERIENCE.companyLink}
+                    company={workConstants.INTACT_FULL_TIME_EXPERIENCE.company}
+                    location={workConstants.INTACT_FULL_TIME_EXPERIENCE.location}
+                />
                 <PageItem
                     title={workConstants.INTACT_EXPERIENCE.title}
                     period={intactExpTimeString}

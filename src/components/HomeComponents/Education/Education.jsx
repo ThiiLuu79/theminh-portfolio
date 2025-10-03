@@ -18,7 +18,7 @@ const Education = () => {
     };
 
     var etsStart = new Date(2020, 0);
-    var etsEnd = new Date();
+    var etsEnd = new Date(2025, 0);
     var maisonneuveStart = new Date(2018, 0)
     var maisonneuveEnd = new Date(2020, 0);
 

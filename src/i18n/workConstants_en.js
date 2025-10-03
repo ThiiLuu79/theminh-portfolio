@@ -3,6 +3,18 @@ export const WORK_INTRODUCTION = "Explore my";
 export const WORK_PAGE_TITLE = "Work Experiences";
 export const WORK_SUBTITLE = "Working experiences";
 
+//INTACT FULL TIME
+export const INTACT_FULL_TIME_EXPERIENCE = {
+    title: "Software Developer I",
+    company: "Intact Financial Corporation",
+    location: "Montreal, Canada",
+    description: "Worked as a Software Developer in the Acquisition Department at Intact Financial Corporation.",
+    contributions: ["Joined the Vega team.", "Developed and launched new, impactful features to enhance user experience.", "Contributed to the development of microfrontends.", "Fixed bugs", "Worked as a Goalkeeper, a role that involves working on unplanned tasks and helping with production and security issues."],
+    tools: ["Environment: MacOS, Windows", "Languages: Angular, TypeScript, HTML, CSS/SASS, Java", "Methodology: Agile, Scrum, SAFe, BDD", "Others: NgRx, RxJS, NodeJS, Jest, Git/Github, Github Desktop, IntelliJ, VSCode, SonarQube, Redux DevTools, Jira, Confluence, Teams, CI/CD pipelines, JUnit"],
+    imgAlt: "intactLogo",
+    companyLink: "https://www.intactfc.com/"
+}
+
 //INTACT
 export const INTACT_EXPERIENCE = {
     title: "Software Developer (Internship)",
