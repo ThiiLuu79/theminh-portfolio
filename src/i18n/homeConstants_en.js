@@ -8,7 +8,7 @@ export const ROLE = "Software Engineering Student";
 //Constant for About.jsx
 export const ABOUT_TITLE = "About Me";
 export const ABOUT_LOCATION = "Montreal, Canada";
-export const ABOUT_P1 = "I recently with a Bachelor's degree in Software Engineering from ÉTS. With a strong passion for coding and problem-solving, I have developed expertise in JavaScript/TypeScript, Angular, Java, and SQL, allowing me to work across front-end, back-end, and database development.";
+export const ABOUT_P1 = "I graduated with a Bachelor's degree in Software Engineering from ÉTS. With a strong passion for coding and problem-solving, I have developed expertise in JavaScript/TypeScript, Angular, Java, and SQL, allowing me to work across front-end, back-end, and database development.";
 export const ABOUT_P2 = "My goal is to grow into a senior developer role, where I can contribute my skills to building complex and impactful software solutions. During my internships, I worked as a Full Stack Developer, customizing websites and delivering tailored solutions for diverse clients. These experiences sharpened my ability to adapt quickly and solve unique challenges.";
 export const ABOUT_P3 = "Resilience is one of the defining qualities I bring to my work—I approach obstacles with determination and creativity, always seeking innovative solutions. Beyond my professional journey, I enjoy expressing my creativity through drawing and photography.";
 export const BUTTON = "Working experiences";
