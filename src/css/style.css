@@ -636,6 +636,41 @@ header{
 .courses_list_item:hover {
   background-color: var(--clr-light);
 }
+
+.education_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.education_content {
+  flex: 2;
+}
+
+.education_image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.education_image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Mobile: stack content above image */
+@media (max-width: 768px) {
+  .education_wrapper {
+    flex-direction: column;
+  }
+
+  .education_image {
+    margin-top: 1.5rem;
+  }
+}
+
 /*EDUCATION*/
 
 /*FOOTER*/

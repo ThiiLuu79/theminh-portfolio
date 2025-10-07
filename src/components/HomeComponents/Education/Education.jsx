@@ -6,8 +6,9 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 import * as homeConstantsEn from '../../../i18n/homeConstants_en';
 import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
 
-const Education = () => {
+import graduationImg from "../../../img/home/graduation.jpg";
 
+const Education = () => {
     const { language } = useLanguage();
     const homeConstants = language === 'en' ? homeConstantsEn : homeConstantsFr;
 
@@ -25,35 +26,52 @@ const Education = () => {
     var etsExpTimeString = GetExpTimeString(etsEnd, etsStart, false, false, true);
     var maisonneuveExpTimeString = GetExpTimeString(maisonneuveEnd, maisonneuveStart, false, false, true);
 
-
     return (
-        <section id = "education" data-aos="fade-right">
+        <section id="education" data-aos="fade-right">
             <div className="content_wrap">
-                <div>
-                    <h2 className = "section__title section__title--education"><b>{homeConstants.EDUCATION_TITLE}</b></h2>
-                    <br></br>
-                    <h3 className="ets_">{homeConstants.ETS}</h3>
-                    <p className="ets_info">{homeConstants.ETS_DEGREE} {etsExpTimeString} </p>
-                    <div className="courses_header">
-                        <h4>{homeConstants.COURSES_TITLE}</h4>
-                        <Button
-                            text={isListVisible ? homeConstants.HIDE_COURSES : homeConstants.SHOW_COURSES}
-                            buttonType='Toggle'
-                            onClickFunction={toggleListVisibility}
-                        />
-                    </div>
+                {/* Wrapper: content on left, image on right */}
+                <div className="education_wrapper">
+                    <div className="education_content">
+                        <h2 className="section__title section__title--education">
+                            <b>{homeConstants.EDUCATION_TITLE}</b>
+                        </h2>
+                        <br />
+                        <h3 className="ets_">{homeConstants.ETS}</h3>
+                        <p className="ets_info">
+                            {homeConstants.ETS_DEGREE} {etsExpTimeString}
+                        </p>
+
+                        <div className="courses_header">
+                            <h4>{homeConstants.COURSES_TITLE}</h4>
+                            <Button
+                                text={isListVisible ? homeConstants.HIDE_COURSES : homeConstants.SHOW_COURSES}
+                                buttonType="Toggle"
+                                onClickFunction={toggleListVisibility}
+                            />
+                        </div>
                         <ul className={`courses_list ${isListVisible ? 'visible' : 'hidden'}`}>
                             {homeConstants.ETS_COURSES.map((course) => (
                                 <li key={course} className="courses_list_item">{course}</li>
                             ))}
                         </ul>
-                    <br></br>
-                    <h3 className="maisonneuve_"> {homeConstants.MAISONNEUVE} </h3>
-                    <p className="maisonneuve_info">{homeConstants.MAISONNEUVE_DEGREE} {maisonneuveExpTimeString} </p>
-                    <br></br>
+
+                        <br />
+                        <h3 className="maisonneuve_">{homeConstants.MAISONNEUVE}</h3>
+                        <p className="maisonneuve_info">
+                            {homeConstants.MAISONNEUVE_DEGREE} {maisonneuveExpTimeString}
+                        </p>
+                        <br />
+                    </div>
+
+                    <div className="education_image">
+                        <img
+                            src={graduationImg}
+                            alt="graduationImg"
+                        />
+                    </div>
                 </div>
             </div>
         </section>
-    )
-}
-export default Education
+    );
+};
+export default Education;
