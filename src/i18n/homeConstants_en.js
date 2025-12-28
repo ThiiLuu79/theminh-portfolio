@@ -3,7 +3,7 @@
 //Constants for Card.jsx
 export const INTRODUCTION = "Hi, my name is";
 export const MY_NAME = "The Minh Luong";
-export const ROLE = "Software Engineering Student";
+export const ROLE = "Software Developer";
 
 //Constant for About.jsx
 export const ABOUT_TITLE = "About Me";
