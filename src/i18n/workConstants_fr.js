@@ -10,7 +10,7 @@ export const INTACT_FULL_TIME_EXPERIENCE = {
     location: "Montréal, Canada",
     description: "Travaillé comme Développeur Logiciel dans le département d'Acquisition chez Intact Corporation Financière.",
     contributions: ["Rejoint l'équipe Vega.", "Développé et lancé de nouvelles fonctionnalités impactantes pour améliorer l'expérience utilisateur.", "Contribué au développement de microfrontends.", "Corrigé des bugs", `Travaillé en tant que "Goalkeeper", un rôle qui implique de travailler sur des tâches non planifiées et d'aider avec les problèmes de production et de sécurité.`, "Participé à la mise en production de nouvelles fonctionnalités.", "Dans le cadre d'un projet d'Innovation, développé un nouvel outil pour visualiser les états des bascules de fonctionnalités dans de nombreux environnements et permettre de les filtrer par différents critères."],
-    tools: ["Environnement : MacOS, Windows", "Langages : Angular, TypeScript, HTML, CSS/SASS, Java", "Méthodologie : Agile, Scrum, SAFe, BDD", "Autres : NgRx, RxJS, NodeJS, Jest, Git/Github, Github Desktop, IntelliJ, VSCode, SonarQube, Redux DevTools, Jira, Confluence, Teams, CI/CD pipelines, JUnit, Jenkins, ArgoCD"],
+    tools: ["Environnement : MacOS, Windows", "Langages : Angular, TypeScript, HTML, CSS/SASS, Java", "Méthodologie : Agile, Scrum, SAFe, BDD", "Autres : NgRx, RxJS, NodeJS, Jest, Git/Github, Github Desktop, IntelliJ, VSCode, SonarQube, Redux DevTools, Jira, Confluence, Teams, CI/CD pipelines, JUnit, Jenkins, ArgoCD, Azure OAuth, Azure App Registration, VAULT"],
     imgAlt: "intactLogo",
     companyLink: "https://www.intactfc.com/"
 }
